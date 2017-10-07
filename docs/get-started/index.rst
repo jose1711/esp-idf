@@ -114,6 +114,9 @@ Get ESP-IDF
 
 Besides the toolchain (that contains programs to compile and build the application), you also need ESP32 specific API / libraries. They are provided by Espressif in `ESP-IDF repository <https://github.com/espressif/esp-idf>`_. To get it, open terminal, navigate to the directory you want to put ESP-IDF, and clone it using ``git clone`` command::
 
+.. note::
+Arch Linux may want to use esp-idf-git available in AUR.
+
     cd ~/esp
     git clone --recursive https://github.com/espressif/esp-idf.git
 
